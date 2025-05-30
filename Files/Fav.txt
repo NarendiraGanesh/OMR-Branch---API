@@ -1,11 +1,27 @@
-Fav
+git config --global user.name "uname"
+git config --global user.email "email"
+git config --list
+
+git init
+git remote add origin url
+
+git add filename
+git add f1 f2
+git add .
+
+git commit -m "Message"
+
+git push -u origin master
+git push
+
+git checkout -b branchname
+git checkout
+git push origin branchname
+
+git pull origin master
 
 
-testing
+============================================================================================================================================================================================
 
 
-
----> version 1
-
-version 2
 

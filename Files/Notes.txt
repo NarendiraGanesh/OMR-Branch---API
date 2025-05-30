@@ -1,0 +1,32 @@
+1. copy url from narendira ganesh repository
+2. goto eclipse workspace -> open git bash type -> git clone {paste url}
+3. cloned folder will be available in the current directory
+4. close git bash
+5. open the cloned folder and check 'pom' file is available
+6. open git bash here
+7. create branches here for example gonna create a new branch named bookHotel type -> git checkout -b bookHotel
+8. this will create new branch
+9. to check in which branch we are currently type -> git checkout
+10. to switch back to master type -> git checkout master
+11. to switch back to bookHotel type -> git bookHotel
+12. check whether the branch is not touched type -> git status [output as : working tree clean]
+13. next gonna add a new file
+14. current directory -> files -> create new document file
+15. in git bash type -> git status
+16. will show the added file as untracked files
+17. add this file by typing -> git add {filename}
+18. add message by typing -> git commit -m "{message}"
+19. then push it to remote by typing -> git push origin bookHotel
+20. incase if any modification is done after pulling from remote; then while we push it throws error
+21. to handle this, pull the files from remote by typing -> git pull origin master
+22. by opening the file the git will show the modifications performed
+23. head tag -> existing content & new content will be under some random numbers
+24. then after verifying and modifies
+25. type -> git status [here we can see the updated details]
+26. now add by typing -> git add .
+27. now type -> git push origin bookHotel [this will upload the file in branch bookHotel]
+28. then in the git browser we can see the file is added
+29. create pull request option is used to request to add the file in the master
+30. while creating request add description and select assignee who can accept the request to add the file to master
+31. we cannot switch to branches created by others
+32. we can only switch to branches created by us and master
