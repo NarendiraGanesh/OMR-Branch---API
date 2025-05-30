@@ -1,2 +1,7 @@
 Login.
 features
+
+1. enter the url
+2. enter the username
+3. enter the mail id
+4. press login 
